@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         SharedPreferences.Editor editor = sharedPreferences.edit();
         editor.putString("Name","Abdullah");
         editor.putInt("Age",20);
+        editor.commit();
 
 
         SharedPreferences sharedPreferences1 =getSharedPreferences("Mobile",0);
